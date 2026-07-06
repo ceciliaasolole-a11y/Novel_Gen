@@ -1,0 +1,13 @@
+# AI Webnovel Generator - Backend (FastAPI + Multi-Agent)
+# Deploy to Railway.app
+#
+# Free-tier friendly: only consumes CPU when a generate request arrives (on-demand).
+# Reads API keys + project data from Supabase. Streams progress via SSE.
+
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+httpx==0.28.1
+supabase==2.10.0
+python-dotenv==1.0.1
+pydantic==2.10.4
+sse-starlette==2.2.1
